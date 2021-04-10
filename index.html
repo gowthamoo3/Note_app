@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+    <title> Note App </title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1> Simple Note App </h1>
+    <div class="container1">
+    <span>Create Note:<span><input type="text" id="textbox" placeholder="Create Note">
+    <input type="button" id="submitbtn" onclick="addNoteToList()" value="+Add Note">
+    <br>
+    <div class="colorpallete">
+        <span> Color:
+    <input type="radio" name="color"> Blue
+    <input type="radio" name="color"> Green
+    <input type="radio" name="color"> Red
+    <input type="radio" name="color"> Yellow
+    <input type="radio" name="color"> Orange
+    </div>
+    <br>
+</div>
+<div class="container2">
+    <ol id="list" >
+        <li style="background-color:lightblue"> Sample note </li>
+    </ol>
+</div>
+</body>
